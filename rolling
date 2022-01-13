@@ -1,0 +1,14 @@
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+div {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+
+
+
