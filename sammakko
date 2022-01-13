@@ -1,0 +1,83 @@
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2011/12/13/17/07/world-11047_960_720.jpg');
+    background-size: 100%;
+}
+
+ 
+/*
+ Zooming hover, round image was founded from w3school Still needed to fix everything more suitable.
+*/
+.sademetsä {
+    border-radius: 50%;
+    position: absolute;
+    transition: transform .2s;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    bottom: 40%;
+    left: 33%;
+}
+.sademetsä:hover {
+    transform: scale(1.5);
+}
+
+.vuori {
+    border-radius: 50%;
+    position: absolute;
+    transition: transform .2s;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    top: 20%;
+    left: 20%;
+}
+
+.vuori:hover {
+    transform: scale(1.5);
+
+}
+.meri {
+    border-radius: 50%;
+    position: absolute;
+    transition: transform .2s;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    bottom: 35%;
+    right: 27%;
+}
+
+.meri:hover {
+    transform: scale(1.5);
+}
+
+.savanni {
+    border-radius: 50%;
+    position: absolute;
+    transition: transform .2s;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    top: 38%;
+    right: 42%;
+}
+
+.savanni:hover {
+    transform: scale(1.5);
+}
+
+.metsä {
+    border-radius: 50%;
+    position: absolute;
+    transition: transform .2s;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    top: 15%;
+    left: 57%;
+}
+
+.metsä:hover {
+    transform: scale(1.5);
+}
