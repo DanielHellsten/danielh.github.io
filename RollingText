@@ -1,0 +1,26 @@
+.position {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    text-align: justify;
+    border: solid 1px #7fffd4;
+    background-color: snow;
+    border-radius: 5px;
+}
+
+.image {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    
+}
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/02/20/astronomy-1866822_960_720.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+
